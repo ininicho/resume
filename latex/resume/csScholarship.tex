@@ -1,0 +1,24 @@
+\documentclass[11pt]{article}
+
+\usepackage{../components/commonheader}
+
+\begin{document}
+
+\subimport{../components/}{header.tex}
+
+\resumesection{Summary of Qualifications}
+\subimport{../components/}{summary.tex}
+
+\resumesection{Education}
+\subimport{../components/education}{waterloo.tex}
+
+\resumesection{Experience}
+\subimport{../components/experiences/}{farmlink.tex}
+\subimport{../components/experiences}{waterloo_tutor.tex}
+\subimport{../components/experiences}{uw_isa.tex}
+\subimport{../components/experiences}{paramount.tex}
+
+\resumesection{Achievements}
+\subimport{../components/awards/}{awards.tex}
+
+\end{document}
